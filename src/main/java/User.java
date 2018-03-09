@@ -4,6 +4,7 @@ public class User {
      private String name;
      private Integer car;
      private String www;
+     private int tree;
      public User(){
 
      }
