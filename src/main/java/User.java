@@ -1,7 +1,8 @@
 public class User {
 
      private Integer id;
-private String name;
+     private String name;
+     private Integer car;
      public User(){
 
      }
@@ -20,5 +21,13 @@ private String name;
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Integer getCar() {
+        return car;
+    }
+
+    public void setCar(Integer car) {
+        this.car = car;
     }
 }
