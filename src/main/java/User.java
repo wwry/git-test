@@ -3,6 +3,7 @@ public class User {
      private Integer id;
      private String name;
      private Integer car;
+     private String www;
      public User(){
 
      }
